@@ -12,7 +12,7 @@ int main() {
 	cout << "[6]CHAR \n";
 	cout << "[7]BOOL \n";
 	cout << "[8]STRING \n\n";
-	cout << "Âàø âûáîð: ";
+	cout << "Ð’Ð°Ñˆ Ð²Ñ‹Ð±Ð¾Ñ€: ";
 	int selectarr;
 	cin >> selectarr;
 
@@ -20,7 +20,7 @@ int main() {
 		system("cls");
 		const int ARR = 10;
 		int arrint[ARR]{ 12,21,33,45,56,67,78,89,91,103 };
-		cout << "[+]Çíà÷åíèÿ INT\n\n";
+		cout << "[+]Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ INT\n\n";
 		for (int i = 0; i < ARR; i++) {
 			cout << " " << "Arrint: " << arrint[i] << endl;
 		}
@@ -29,7 +29,7 @@ int main() {
 		system("cls");
 		const int ARR = 10;
 		short arrshort[ARR]{ 1421,232,361,4421,5412,623,761,8213,9512,10123 };
-		cout << "[+]Çíà÷åíèÿ SHORT:\n\n";
+		cout << "[+]Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ SHORT:\n\n";
 		for (int i = 0; i < ARR; i++) {
 			cout << " " << "Arrshort:" << arrshort[i] << endl;
 		}
@@ -38,7 +38,7 @@ int main() {
 		system("cls");
 		const int ARR = 10;
 		long arrlong[ARR]{ 1321,5112,33232,4325,55213,632,741,5534,1239,10213 };
-		cout << "[+]Çíà÷åíèå LONG:" << endl;
+		cout << "[+]Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ LONG:" << endl;
 		for (int i = 0; i < ARR; i++) {
 			cout << " " << "Arrlong:" << arrlong[i] << endl;
 		}
@@ -47,7 +47,7 @@ int main() {
 		system("cls");
 		const int ARR = 10;
 		float arrfloat[ARR]{ 1.5,2.5,3.8,4.5,5.9,6.5,7.3,8.1,9.8,1.6 };
-		cout << "[+]Çíà÷åíèå FLOAT:" << endl;
+		cout << "[+]Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ FLOAT:" << endl;
 		for (int i = 0; i < ARR; i++) {
 			cout << " " << "Arrfloat:" << arrfloat[i] << endl << endl;
 		}
@@ -56,7 +56,7 @@ int main() {
 		system("cls");
 		const int ARR = 10;
 		double arrdouble[ARR]{ 1.5,2.5,3.8,4.5,5.9,6.5,7.3,8.1,9.8,1.6 };
-		cout << "[+]Çíà÷åíèå DOUBLE:" << endl;
+		cout << "[+]Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ DOUBLE:" << endl;
 		for (int i = 0; i < ARR; i++) {
 			cout << " " << "Arrdouble:" << arrdouble[i] << endl << endl;
 		}
@@ -65,7 +65,7 @@ int main() {
 		system("cls");
 		const int ARR = 10;
 		char arrchar[ARR]{ 1,2,3,4,5,6,7,8,9,10 };
-		cout << "[+]Çíà÷åíèå CHAR:" << endl;
+		cout << "[+]Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ CHAR:" << endl;
 		for (int i = 0; i < ARR; i++) {
 			cout << " " << "Arrchar:" << arrchar[i] << endl << endl;
 		}
@@ -74,7 +74,7 @@ int main() {
 		system("cls");
 		const int ARR = 10;
 		bool arrbool[ARR]{ true, false, true, false, false, false, true, true, true , true };
-		cout << "[+]Çíà÷åíèå BOOL:" << endl;
+		cout << "[+]Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ BOOL:" << endl;
 		for (int i = 0; i < ARR; i++) {
 			cout << " " << "Arrbool:" << arrbool[i] << endl << endl;
 		}
@@ -82,8 +82,8 @@ int main() {
 	else if (selectarr == 8) {
 		system("cls");
 		const int ARR = 10;
-		string arrstring[ARR]{ "îäèí","äâà","òðè","÷åòûðå","ïÿòü","øåñòü","ñåìü","âîñåìü","äåâÿòü","äåñÿòü" };
-		cout << "[+]Çíà÷åíèå STRING:" << endl;
+		string arrstring[ARR]{ "Ð¾Ð´Ð¸Ð½","Ð´Ð²Ð°","Ñ‚Ñ€Ð¸","Ñ‡ÐµÑ‚Ñ‹Ñ€Ðµ","Ð¿ÑÑ‚ÑŒ","ÑˆÐµÑÑ‚ÑŒ","ÑÐµÐ¼ÑŒ","Ð²Ð¾ÑÐµÐ¼ÑŒ","Ð´ÐµÐ²ÑÑ‚ÑŒ","Ð´ÐµÑÑÑ‚ÑŒ" };
+		cout << "[+]Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ STRING:" << endl;
 		for (int i = 0; i < ARR; i++) {
 			cout << " " << "Arrstring:" << arrstring[i] << endl << endl;
 		}
