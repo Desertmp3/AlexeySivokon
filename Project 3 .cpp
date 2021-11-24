@@ -8,12 +8,12 @@ int main() {
 	double result;
 	char operation;
 
-	cout << "Êàëüêóëÿòîğ." << endl;
-	cout << "Ââåäèòå ÷èñëî: ";
+	cout << "ĞšĞ°Ğ»ÑŒĞºÑƒĞ»ÑÑ‚Ğ¾Ñ€." << endl;
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: ";
 	cin >> num1;
-	cout << "Ââåäèòå âòîğîå ÷èñëî: ";
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: ";
 	cin >> num2;
-	cout << "Ââåäèòå îïåğàöèş ";
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¾Ğ¿ĞµÑ€Ğ°Ñ†Ğ¸Ñ ";
 	cin >> operation;
 
 	if (operation == '+') {
@@ -38,7 +38,7 @@ int main() {
 		cout << num1 << operation << num2 << "=" << result;
 	}
 	else if (operation == '/' && num2 == 0) {
-		cout << "Íåëüçÿ äåëèòü íà íîëü !";
+		cout << "ĞĞµĞ»ÑŒĞ·Ñ Ğ´ĞµĞ»Ğ¸Ñ‚ÑŒ Ğ½Ğ° Ğ½Ğ¾Ğ»ÑŒ !";
 	}
 	else if (operation == '%') {
 		cout << "\t";
@@ -46,7 +46,7 @@ int main() {
 		cout << num1 << operation << num2 << "=" << result;
 	}
 	else {
-		cout << "Âû íå ââåëè íåêêîğåêòğûå äàííûå !";
+		cout << "Ğ’Ñ‹ Ğ½Ğµ Ğ²Ğ²ĞµĞ»Ğ¸ Ğ½ĞµĞºĞºĞ¾Ñ€ĞµĞºÑ‚Ñ€Ñ‹Ğµ Ğ´Ğ°Ğ½Ğ½Ñ‹Ğµ !";
 	}
 	int _; cin >> _;
 	return 0;
