@@ -2,90 +2,90 @@
 using namespace std;
 int main() {
 	setlocale(0, "");
-	cout << "Переводчик" << endl;
-	cout << "Выберите язык перевода" << endl << endl;
-	cout << "[1] - На русский" << endl;
-	cout << "[2] - На английский" << endl;
-	cout << "[3] - Выход" << endl << endl;
-	cout << "Сделайте свой выбор : ";
+	cout << "РџРµСЂРµРІРѕРґС‡РёРє" << endl;
+	cout << "Р’С‹Р±РµСЂРёС‚Рµ СЏР·С‹Рє РїРµСЂРµРІРѕРґР°" << endl << endl;
+	cout << "[1] - РќР° СЂСѓСЃСЃРєРёР№" << endl;
+	cout << "[2] - РќР° Р°РЅРіР»РёР№СЃРєРёР№" << endl;
+	cout << "[3] - Р’С‹С…РѕРґ" << endl << endl;
+	cout << "РЎРґРµР»Р°Р№С‚Рµ СЃРІРѕР№ РІС‹Р±РѕСЂ : ";
 	int select;
 	cin >> select;
 
 	if (select == 2) {
-		cout << "Вы выбрали перевод на английский!" << endl;
-		cout << "[1] - Дом " << endl;
-		cout << "[2] - Убить" << endl;
-		cout << "[3] - Собака" << endl;
-		cout << "[4] - Кошка" << endl;
-		cout << "[5] - Голова" << endl;
-		cout << "[6] - Тело" << endl;
-		cout << "[7] - Работать" << endl;
-		cout << "[8] - Игра" << endl;
-		cout << "[9] - Бежать" << endl;
-		cout << "[10] - Солнце" << endl;
-		cout << "[11] - Парень" << endl;
-		cout << "[12] - Сумка" << endl;
-		cout << "[13] - Пистолет" << endl;
-		cout << "[14] - Крыша" << endl;
-		cout << "[15] - Книга" << endl;
-		cout << "Выберете слово которое хотите перевести:  ";
+		cout << "Р’С‹ РІС‹Р±СЂР°Р»Рё РїРµСЂРµРІРѕРґ РЅР° Р°РЅРіР»РёР№СЃРєРёР№!" << endl;
+		cout << "[1] - Р”РѕРј " << endl;
+		cout << "[2] - РЈР±РёС‚СЊ" << endl;
+		cout << "[3] - РЎРѕР±Р°РєР°" << endl;
+		cout << "[4] - РљРѕС€РєР°" << endl;
+		cout << "[5] - Р“РѕР»РѕРІР°" << endl;
+		cout << "[6] - РўРµР»Рѕ" << endl;
+		cout << "[7] - Р Р°Р±РѕС‚Р°С‚СЊ" << endl;
+		cout << "[8] - РРіСЂР°" << endl;
+		cout << "[9] - Р‘РµР¶Р°С‚СЊ" << endl;
+		cout << "[10] - РЎРѕР»РЅС†Рµ" << endl;
+		cout << "[11] - РџР°СЂРµРЅСЊ" << endl;
+		cout << "[12] - РЎСѓРјРєР°" << endl;
+		cout << "[13] - РџРёСЃС‚РѕР»РµС‚" << endl;
+		cout << "[14] - РљСЂС‹С€Р°" << endl;
+		cout << "[15] - РљРЅРёРіР°" << endl;
+		cout << "Р’С‹Р±РµСЂРµС‚Рµ СЃР»РѕРІРѕ РєРѕС‚РѕСЂРѕРµ С…РѕС‚РёС‚Рµ РїРµСЂРµРІРµСЃС‚Рё:  ";
 		int slovo;
 		cin >> slovo;
 		switch (slovo)
 		{
 		case 1:
-			cout << endl << "Перевод Home <- Дом" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Home <- Р”РѕРј" << endl;
 			break;
 		case 2:
-			cout << endl << "Перевод Kill <- Убить" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Kill <- РЈР±РёС‚СЊ" << endl;
 			break;
 		case 3:
-			cout << endl << "Перевод Dog <- Собака" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Dog <- РЎРѕР±Р°РєР°" << endl;
 			break;
 		case 4:
-			cout << endl << "Перевод Cat <- Кошка" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Cat <- РљРѕС€РєР°" << endl;
 			break;
 		case 5:
-			cout << endl << "Перевод Head <- Голова" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Head <- Р“РѕР»РѕРІР°" << endl;
 			break;
 		case 6:
-			cout << endl << "Перевод Body <- Тело" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Body <- РўРµР»Рѕ" << endl;
 			break;
 		case 7:
-			cout << endl << "Перевод Work <- Работа" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Work <- Р Р°Р±РѕС‚Р°" << endl;
 			break;
 		case 8:
-			cout << endl << "Перевод Game <- Игра" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Game <- РРіСЂР°" << endl;
 			break;
 		case 9:
-			cout << endl << "Перевод Run <- Бежать" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Run <- Р‘РµР¶Р°С‚СЊ" << endl;
 			break;
 		case 10:
-			cout << endl << "Перевод Sun <- Солнце" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Sun <- РЎРѕР»РЅС†Рµ" << endl;
 			break;
 		case 11:
-			cout << endl << "Перевод Man <- Парень" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Man <- РџР°СЂРµРЅСЊ" << endl;
 			break;
 		case 12:
-			cout << endl << "Перевод Bag <- Сумка" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Bag <- РЎСѓРјРєР°" << endl;
 			break;
 		case 13:
-			cout << endl << "Перевод Pistol <- Пистолет" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Pistol <- РџРёСЃС‚РѕР»РµС‚" << endl;
 			break;
 		case 14:
-			cout << endl << "Перевод Roof <- Крыша)" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Roof <- РљСЂС‹С€Р°)" << endl;
 			break;
 		case 15:
-			cout << endl << "Перевод Book <- Книга" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Book <- РљРЅРёРіР°" << endl;
 			break;
 		default:
-			cout << "Вы выбрали неверное значение";
+			cout << "Р’С‹ РІС‹Р±СЂР°Р»Рё РЅРµРІРµСЂРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ";
 			break;
 		}
 	}
 	else if (select == 1) {
 		int slovo;
-		cout << endl << "Вы выбрали перевод на русский!" << endl;
+		cout << endl << "Р’С‹ РІС‹Р±СЂР°Р»Рё РїРµСЂРµРІРѕРґ РЅР° СЂСѓСЃСЃРєРёР№!" << endl;
 		cout << "[1] - Home " << endl;
 		cout << "[2] - Kill" << endl;
 		cout << "[3] - Dog" << endl;
@@ -101,58 +101,58 @@ int main() {
 		cout << "[13] - Pistol" << endl;
 		cout << "[14] - Roof" << endl;
 		cout << "[15] - Book" << endl;
-		cout << "Теперь выберете слово которое хотите перевести! - ";
+		cout << "РўРµРїРµСЂСЊ РІС‹Р±РµСЂРµС‚Рµ СЃР»РѕРІРѕ РєРѕС‚РѕСЂРѕРµ С…РѕС‚РёС‚Рµ РїРµСЂРµРІРµСЃС‚Рё! - ";
 		cin >> slovo;
 
 		switch (slovo)
 		{
 		case 1:
-			cout << endl << "Перевод Home -> Дом" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Home -> Р”РѕРј" << endl;
 			break;
 		case 2:
-			cout << endl << "Перевод Kill -> Убить" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Kill -> РЈР±РёС‚СЊ" << endl;
 			break;
 		case 3:
-			cout << endl << "Перевод Dog -> Собака" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Dog -> РЎРѕР±Р°РєР°" << endl;
 			break;
 		case 4:
-			cout << endl << "Перевод Cat -> Кошка" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Cat -> РљРѕС€РєР°" << endl;
 			break;
 		case 5:
-			cout << endl << "Перевод Head -> Голова" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Head -> Р“РѕР»РѕРІР°" << endl;
 			break;
 		case 6:
-			cout << endl << "Перевод Body -> Тело" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Body -> РўРµР»Рѕ" << endl;
 			break;
 		case 7:
-			cout << endl << "Перевод Work -> Работа" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Work -> Р Р°Р±РѕС‚Р°" << endl;
 			break;
 		case 8:
-			cout << endl << "Перевод Game -> Игра" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Game -> РРіСЂР°" << endl;
 			break;
 		case 9:
-			cout << endl << "Перевод Run -> Бежать" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Run -> Р‘РµР¶Р°С‚СЊ" << endl;
 			break;
 		case 10:
-			cout << endl << "Перевод Sun -> Солнце" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Sun -> РЎРѕР»РЅС†Рµ" << endl;
 			break;
 		case 11:
-			cout << endl << "Перевод Man -> Парень" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Man -> РџР°СЂРµРЅСЊ" << endl;
 			break;
 		case 12:
-			cout << endl << "Перевод Bag -> Сумка" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Bag -> РЎСѓРјРєР°" << endl;
 			break;
 		case 13:
-			cout << endl << "Перевод Pistol -> Пистолет" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Pistol -> РџРёСЃС‚РѕР»РµС‚" << endl;
 			break;
 		case 14:
-			cout << endl << "Перевод Roof -> Крыша" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Roof -> РљСЂС‹С€Р°" << endl;
 			break;
 		case 15:
-			cout << endl << "Перевод Book -> Книга" << endl;
+			cout << endl << "РџРµСЂРµРІРѕРґ Book -> РљРЅРёРіР°" << endl;
 			break;
 		default:
-			cout << "Вы выбрали неверное значение";
+			cout << "Р’С‹ РІС‹Р±СЂР°Р»Рё РЅРµРІРµСЂРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ";
 			break;
 
 		}
